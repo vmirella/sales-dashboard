@@ -13,6 +13,8 @@
   --chart-grid: #e1e0d9;
   --positive: #006300;
   --negative: #d03b3b;
+  /* Status "warning" from the palette. Used only as a dot next to a text label. */
+  --warning: #fab219;
 }
 
 @theme inline {
@@ -25,6 +27,7 @@
   --color-series: var(--series-1);
   --color-positive: var(--positive);
   --color-negative: var(--negative);
+  --color-warning: var(--warning);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
