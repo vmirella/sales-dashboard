@@ -26,7 +26,7 @@ export async function Dashboard({ searchParams }: DashboardProps) {
 
   return (
     <div className="space-y-6">
-      <div className="flex justify-end">
+      <div className="flex">
         <RangeFilter value={range} />
       </div>
 

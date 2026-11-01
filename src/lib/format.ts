@@ -9,6 +9,21 @@ export function formatCurrency(value: number, fractionDigits = 0): string {
   }).format(value);
 }
 
+/** Compact currency for chart axes and labels, e.g. "$22K" or "$1.2M". */
+export function formatCompactCurrency(value: number): string {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(value);
+}
+
+/** "electronics" -> "Electronics". */
+export function formatCategory(category: string): string {
+  return category.charAt(0).toUpperCase() + category.slice(1);
+}
+
 export function formatNumber(value: number): string {
   return new Intl.NumberFormat("en-US").format(value);
 }

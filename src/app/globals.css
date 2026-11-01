@@ -7,6 +7,12 @@
   --border: #e2e8f0;
   --muted: #64748b;
   --accent: #4f46e5;
+
+  /* Chart tokens. Series color is slot 1 of the validated categorical palette. */
+  --series-1: #2a78d6;
+  --chart-grid: #e1e0d9;
+  --positive: #006300;
+  --negative: #d03b3b;
 }
 
 @theme inline {
@@ -16,6 +22,9 @@
   --color-border: var(--border);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-series: var(--series-1);
+  --color-positive: var(--positive);
+  --color-negative: var(--negative);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -28,6 +37,12 @@
     --border: #243052;
     --muted: #94a3b8;
     --accent: #6366f1;
+
+    --series-1: #3987e5;
+    --chart-grid: #243052;
+    --positive: #0ca30c;
+    /* Lighter red than the status "critical" so small text stays readable on the dark surface. */
+    --negative: #e66767;
   }
 }
 
