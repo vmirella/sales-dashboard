@@ -115,4 +115,4 @@ Todos los datos son ficticios. Se generan con una semilla fija, por lo que son s
 
 ## Autor
 
-**<Virginia Contreras Villafuerte>** · [LinkedIn](www.linkedin.com/in/virginia-contreras) · [Portafolio](https://virginiacontreras.vercel.app/)
+**<Virginia Contreras Villafuerte>** · [LinkedIn](https://linkedin.com/in/virginia-contreras) · [Portafolio](https://virginiacontreras.vercel.app/)
